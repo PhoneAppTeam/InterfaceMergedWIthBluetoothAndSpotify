@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\classes-d3e2042f9e670fa576aa5c9505deb7589172a511.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\okhttp-2.3.0-198041572a5ce635e4e7babe0a1ce56e0287b8e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\exploded-aar\com.spotify.sdk\spotify-player\1.0.0-beta9\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7d7c27f03215dfdf3c7b6d34a106e2fd0b061fe3">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\classes-368aa0e7e686e01480bd8888a5552fca99611b1a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-1e873e925c7dde0319b5d598ba24477ed8df1384.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\exploded-aar\com.spotify.sdk\spotify-auth\1.0.0-beta9\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ce48e0e9dcaaba897077f28799eb564516430920">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\classes-758494cbe0065bd7e279f49d26d94d2277430413.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\gson-2.3.1-49cad3d32c663a9c0370a11d33a95de41bc2f988.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\okio-1.3.0-00b158cb2419c090d776a56446e605ed103c8525.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-3524f4372f2d66dcb948a8fc40415386491fe418.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\exploded-aar\com.spotify.sdk\spotify-player\1.0.0-beta9\libs\jnihelpers-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f967424e27e42f211ecc43e63912a8bed1f17bd">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\jnihelpers-1.0-8437537615bcae9d6f5396d7437155fbe30d237d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.9.0\a681c044244d9fc375198588297a39ba78028423\retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\retrofit-1.9.0-b177b2d2b845326b1abefa08388d2501238536ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Bart\Desktop\School\CS196\PhoneApp\InterfaceMergedWIthBluetoothAndSpotify\app\build\intermediates\pre-dexed\debug\classes-694c831a8f4352d7e4b4b86430758349758fc539.jar" />
+    </item>
+
+</items>

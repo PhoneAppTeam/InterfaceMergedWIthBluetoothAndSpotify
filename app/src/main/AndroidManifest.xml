@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lanceandroiddevelop.interfacedesign" >
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".OpeningActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+
+
+
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CreateActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MusicActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+        </activity>
+
+        <activity
+            android:name=".SearchActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+            <meta-data
+                android:name=".searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <activity
+            android:name="com.spotify.sdk.android.authentication.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".JoinActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StatsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CustomizeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".FriendsActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.MAIN" />
+                <category android:name=".intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    <activity
+        android:name=".BluetoothTesting"
+        android:label="@string/title_activity_bluetooth_testing" >
+    </activity>
+
+    <activity
+        android:name=".MusicPlayer"
+        android:label="MusicPlayer"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait" >
+    </activity>
+
+    <service
+        android:name=".MusicService"
+        android:enabled="true"
+        android:exported="true" >
+        android:name="com.spotify.sdk.android.authentication.LoginActivity"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </service>
+
+    <activity
+        android:name="BluetoothTesting"
+        android:label="@string/title_activity_bluetooth_testing" >
+    </activity>
+
+    <activity
+        android:name=".BlueToothActivity"
+        android:label="MusicPlayer"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait" >
+    </activity>
+
+    <service
+        android:name=".MusicService"
+        android:enabled="true"
+        android:exported="true" >
+        android:name="com.spotify.sdk.android.authentication.LoginActivity"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    </service>
+
+    </application>
+
+</manifest>
